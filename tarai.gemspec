@@ -4,6 +4,7 @@ Gem::Specification.new do |s|
   s.date = '2015-01-05'
   s.author = 'Tanaka Akira'
   s.email = 'akr@fsij.org'
+  s.required_ruby_version = '>= 1.8.0'
   s.files = %w[README ext/extconf.rb ext/tarai.c]
   s.test_files = %w[test/test-tarai.rb]
   s.has_rdoc = true
