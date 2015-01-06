@@ -42,6 +42,10 @@ tarai(long x, long y, long z)
  *    tarai(x,y,z)  => integer
  *
  *  computes the tarai function in recursive (naive) manner.
+ *
+ *    p tarai(12, 6, 0)
+ *    #=> 12
+ *
  */
 
 static VALUE
